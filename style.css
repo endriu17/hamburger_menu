@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 250px;
+    background-color: darkgrey;
+    position: relative;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.main-nav a.main-menu_logo {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 50px;
+
+}
+
+.main-nav_list li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.main-menu_list li a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    display: block;
+}
+
+.main-nav ul.main-menu_list {
+    margin: 0;
+    padding: 0 20px;
+    list-style-type: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.main-menu_list {
+    width: 100%;
+}
+
+.hidden-nav_icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+a.hidden-nav_icon img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.hidden-nav_menu {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+}
+
+.hidden-nav_menu a.hidden-menu_logo img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.hidden-nav_menu a.hidden-close_icon img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    filter: invert(40%);
+    display: none;
+}
+
+.hidden-nav_menu a.hidden-close_icon img:hover {
+    filter: invert(0);
+}
+
+ul.hidden-menu_list {
+    padding: 20px;
+    list-style-type: none;
+    margin: 0 auto;
+    display: none;
+}
+
+ul.hidden-menu_list li {
+    padding: 15px 0;
+    text-align: center;
+}
+
+ul.hidden-menu_list li a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .hidden-nav_menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+
+    .hidden-nav_menu {
+        display: block;
+    }
+
+    .hidden-nav_icon {
+        display: block;
+    }
+
+    .main-header {
+        min-height: 50px;
+    }
+    
+}
