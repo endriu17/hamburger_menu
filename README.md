@@ -8,12 +8,12 @@ https://endriu17.github.io/hamburger_menu/.
 
   Ten projekt to przykladowa strona sklepu, która poslużyla do nauki kodowania dla trzech programistów.
   Chodzilo zarówno o cwiczenia z zakresu kodu `HTML`, `CSS` i `Javascript` ale także (a może przede wszystkim)
-  do opanowania `wspólpracy grupowej` w ramach projektu, a także nabrania dobrych nawyków, aby kod byl elegancki
-  i tak jak to podkreślali mentorzy aby wyglądal jakby pisal go **jeden programista**.
+  do opanowania `wspólpracy grupowej` w ramach projektu, a także nabrania `dobrych nawyków`, aby kod byl elegancki
+  i - tak jak to podkreślali mentorzy - >aby wyglądal jakby pisal go **jeden programista**.
 
 ## Demo
 
-  Aktualny stan projektu można obejżec tutaj: [Podgląd strony projektu](https://dreamy-goldwater.netlify.com/)
+  Aktualny stan projektu można obejżec tutaj:  [Podgląd strony projektu](https://dreamy-goldwater.netlify.com/)
 
 ## Inicjacja projektu
 
